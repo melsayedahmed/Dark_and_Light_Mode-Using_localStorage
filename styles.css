@@ -1,0 +1,47 @@
+/* Common styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Light mode styles */
+body {
+    background-color: #f0f0f0;
+    color: #333333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #333333;
+    color: #f0f0f0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Toggle button styles */
+#mode-toggle {
+    background-color: #ffffff;
+    color: #333333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#mode-toggle:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
